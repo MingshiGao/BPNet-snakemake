@@ -1,0 +1,15 @@
+# Define experiments and their replicates
+experiments:
+  ENCSR000BGF:
+    replicates:
+      - ENCFF750IJA
+      - ENCFF953VYL
+    control_exp: ENCSR398JTO
+  ENCSR000BQS:
+    replicates:
+      - ENCFF887ZNY
+      - ENCFF213EBE
+    control_exp: ENCSR398JTO
+
+# Define files and dirs
+refDir: /home/mingshi.gao-umw/GM12878/bpnet/reference

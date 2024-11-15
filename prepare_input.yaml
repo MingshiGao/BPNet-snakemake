@@ -1,0 +1,20 @@
+# Define experiments and their replicates
+experiments:
+  ENCSR000BGF:
+    replicates:
+      - ENCFF750IJA
+      - ENCFF953VYL
+  ENCSR000BQS:
+    replicates:
+      - ENCFF887ZNY
+      - ENCFF213EBE
+
+# reference file
+chrsize: /data/zusers/gaomingshi/index/GRCh38/hg38.chrom.sizes
+dir: /zata/data/zlab/zusers/gaomingshi/GM12878/bam
+
+# Tool parameters
+params:
+  samtools:
+    threads: 20
+
